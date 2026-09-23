@@ -16,7 +16,7 @@ export default function DetalheLivro({ route }) {
   const [feedback, setFeedback] = useState(null);
 
   const carregar = useCallback(async () => {
-    // TODO: chamar buscarLivroPorId(livroId) e atualizar os estados livro, carregando e erro
+    
   }, [livroId]);
 
   useEffect(() => {
